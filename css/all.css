@@ -1,0 +1,554 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* =========
+    背景
+============ */
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg01 {
+    background-image: url(../images/BG/bg_01.jpg);
+}
+
+.bg02 {
+    background-image: url(../images/BG/bg_02.jpg);
+}
+
+.bg03 {
+    background-image: url(../images/BG/bg_03.jpg);
+}
+
+.bg04 {
+    background-image: url(../images/BG/bg_04.jpg);
+}
+
+.bg05 {
+    background-image: url(../images/BG/bg_05.jpg);
+}
+
+.bg06 {
+    background-image: url(../images/BG/bg_06.jpg);
+}
+
+.bg07 {
+    background-image: url(../images/BG/bg_07.jpg);
+}
+
+.bg08 {
+    background-image: url(../images/BG/bg_08.jpg);
+}
+
+.bg09 {
+    background-image: url(../images/BG/bg_09.jpg);
+}
+
+.bg10 {
+    background-image: url(../images/BG/bg_10.jpg);
+}
+
+.bg11 {
+    background-image: url(../images/BG/bg_11.jpg);
+}
+
+.bg12 {
+    background-image: url(../images/BG/bg_12.jpg);
+}
+
+.bg13 {
+    background-image: url(../images/BG/bg_13.jpg);
+}
+
+.bg14 {
+    background-image: url(../images/BG/bg_14.jpg);
+}
+
+.bg15 {
+    background-image: url(../images/BG/bg_15.jpg);
+}
+
+.bg16 {
+    background-image: url(../images/BG/bg_16.jpg);
+}
+
+.bg17 {
+    background-image: url(../images/BG/bg_17.jpg);
+}
+
+.bg18 {
+    background-image: url(../images/BG/bg_18.jpg);
+}
+
+/* QABG */
+.QABG {
+    background-color: #FFE6EC;
+}
+
+/* =========
+    定位
+============ */
+.thing01-1 {
+    width: 71.7%;
+    left: 11%;
+    top: 4.25%;
+}
+
+.thing01-2 {
+    width: 59.5%;
+    left: 1%;
+    bottom: 18.5%;
+}
+
+.thing01-3 {
+    width: 69.9%;
+    right: -10.5%;
+    bottom: 4.5%;
+}
+
+.thing01-4 {
+    width: 58.9%;
+    right: -17%;
+    top: 57%;
+    mix-blend-mode: screen;
+}
+
+.thing01-5 {
+    width: 40.3%;
+    left: -1%;
+    top: 45%;
+    mix-blend-mode: screen;
+}
+
+.thing01-6 {
+    width: 45.9%;
+    left: 24.8%;
+    top: 22.5%;
+}
+
+.thing02-1 {
+    width: 99.3%;
+    left: 3%;
+    top: -3%;
+    mix-blend-mode: screen;
+    animation: neonLight 5s infinite steps(3);
+}
+
+.thing02-2A {
+    width: 21.5%;
+    left: 48.8%;
+    top: 40.5%;
+}
+
+.thing02-2B {
+    width: 21.5%;
+    left: 48.8%;
+    top: 40.5%;
+}
+
+.thing02-3A {
+    width: 21.5%;
+    left: 72.5%;
+    top: 40.5%;
+}
+
+.thing02-3B {
+    width: 21.5%;
+    left: 72.5%;
+    top: 40.5%;
+}
+
+.thing02-4A {
+    width: 21.5%;
+    left: 5%;
+    top: 72.5%;
+}
+
+.thing02-4B {
+    width: 21.5%;
+    left: 5%;
+    top: 72.5%;
+}
+
+.thing02-5A {
+    width: 21.5%;
+    left: 28.5%;
+    top: 72.5%;
+}
+
+.thing02-5B {
+    width: 21.5%;
+    left: 28.5%;
+    top: 72.5%;
+}
+
+.thing03-1 {
+    width: 62.8%;
+    left: 2%;
+    top: 19.25%;
+}
+
+.thing03-2 {
+    width: 41.8%;
+    right: 5.5%;
+    bottom: 33%;
+    cursor: pointer;
+}
+
+.thing03-3 {
+    width: 56.3%;
+    right: -0.5%;
+    bottom: 9.1%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.thing03-4 {
+    width: 45.6%;
+    right: 19%;
+    top: 60%;
+    mix-blend-mode: screen;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.thing03-5 {
+    width: 49.6%;
+    left: 4%;
+    top: 55%;
+    cursor: pointer;
+}
+
+.thing03-6 {
+    width: 36.3%;
+    left: 20.8%;
+    top: 51.25%;
+    mix-blend-mode: screen;
+    pointer-events: none;
+}
+
+.thing03-7 {
+    width: 8.3%;
+    right: 24%;
+    bottom: 3%;
+    animation: scale 2s infinite ease-in-out;
+    transform-origin: bottom center;
+}
+
+.thing03-8 {
+    width: 26.1%;
+    left: -3.05%;
+    bottom: 7.5%;
+}
+
+.thing04-1 {
+    width: 72.9%;
+    left: 15.5%;
+    top: 5.5%;
+    opacity: 0;
+}
+
+.thing04-2 {
+    width: 32.1%;
+    right: 0%;
+    top: 3%;
+    mix-blend-mode: screen;
+}
+
+.thing04-3 {
+    width: 91.1%;
+    left: 5.5%;
+    top: 16%;
+}
+
+.thing06-1 {
+    width: 66.1%;
+    right: -4.5%;
+    top: 46%;
+    z-index: 1;
+}
+
+.thing06-2 {
+    width: 55.3%;
+    right: -6%;
+    top: 52%;
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+
+.thing06-3 {
+    width: 56.5%;
+    left: 0%;
+    top: 39.25%;
+}
+
+.thing06-4 {
+    width: 37.8%;
+    left: -2%;
+    top: 32%;
+    mix-blend-mode: screen;
+}
+
+.thing07-1 {
+    width: 46.2%;
+    left: 28.5%;
+    top: 24.5%;
+}
+
+.thing07-2 {
+    width: 7%;
+    right: 4%;
+    bottom: 39.5%;
+    animation: arrowJump 1.25s infinite ease-in-out;
+    transform-origin: bottom left;
+}
+
+.thing07-3 {
+    width: 24.9%;
+    right: 16.5%;
+    bottom: 15.5%;
+    z-index: 3;
+}
+
+.thing07-4 {
+    width: 25.2%;
+    right: 0%;
+    top: 71%;
+    animation: arrowJump 1.25s 0.5s infinite ease-in-out;
+    transform-origin: bottom left;
+    z-index: 2;
+}
+
+.thing07-5 {
+    width: 28.1%;
+    right: 15%;
+    top: 71.25%;
+
+}
+
+.thing07-6 {
+    width: 28%;
+    right: 5.5%;
+    top: 65%;
+    z-index: 1;
+}
+
+.thing09-1 {
+    width: 64%;
+    height: 19.1%;
+    left: 4%;
+    top: 13.8%;
+}
+
+.thing09-2 {
+    width: 52.1%;
+    right: -12.5%;
+    top: 20.5%;
+    pointer-events: none;
+}
+
+.thing09-3 {
+    width: 41.2%;
+    left: 2%;
+    top: 32%;
+    pointer-events: none;
+}
+
+.thing09-4 {
+    width: 100%;
+    left: 9%;
+    top: 39.5%;
+    scale: 1.173;
+}
+
+.thing09-5 {
+    width: 100%;
+    left: -9%;
+    bottom: 24%;
+    scale: 1.155;
+}
+
+.thing09-6 {
+    width: 100%;
+    left: 9%;
+    bottom: 5.2%;
+    scale: 1.226;
+}
+
+.thing09-7 {
+    width: 44.5%;
+    left: -12%;
+    top: 40.5%;
+    mix-blend-mode: screen;
+}
+
+.thing09-8 {
+    width: 44.5%;
+    left: 19.5%;
+    bottom: 33.8%;
+    mix-blend-mode: screen;
+}
+
+.thing09-9 {
+    width: 44.5%;
+    left: -5%;
+    bottom: 13%;
+    mix-blend-mode: screen;
+}
+
+.thing12-1 {
+    width: 82%;
+    left: 9%;
+    bottom: 28%;
+}
+
+.thing12-2 {
+    width: 90%;
+    left: 5%;
+    top: 0%;
+}
+
+.thing13-1 {
+    width: 24%;
+    right: 6%;
+    top: 19%;
+    animation: shake-slow 8s infinite ease-in-out
+}
+
+.thing13-2 {
+    width: 30.6%;
+    left: 5%;
+    top: 44.5%;
+    animation: shake-slow 8s infinite ease-in-out
+}
+
+.phone {
+    width: 100%;
+    height: 9%;
+    left: 0%;
+    bottom: 21%;
+}
+
+.mail {
+    width: 100%;
+    height: 7%;
+    left: 0%;
+    bottom: 3%;
+}
+
+/* =========
+    QA
+============ */
+.QA_01,
+.QA_02,
+.QA_03,
+.QA_04,
+.QA_05,
+.QA_06 {
+    width: 92.3%;
+    left: 4%;
+    bottom: 0;
+    transition: all .8s;
+}
+
+.openBtn {
+    width: 4.6%;
+    right: 9%;
+    top: 45%;
+}
+.closeBtn {
+    width: 4.6%;
+    right: 9%;
+    top: 55%;
+}
+
+/* =========
+    offer
+============ */
+.offerBtn {
+    transition: all .3s;
+}
+
+.offerBtn:hover {
+    opacity: 0.8;
+    transform: translateY(5px);
+}
+
+.offer_middle {
+    width: 74.9%;
+    left: 13.5%;
+    bottom: 25%;
+}
+
+.offer01 {
+    width: 74.9%;
+    left: 13.5%;
+    bottom: 20%;
+}
+
+.offer02 {
+    width: 74.9%;
+    left: 13.5%;
+    bottom: 19%;
+}
+
+.offer03 {
+    width: 74.9%;
+    left: 13.5%;
+    bottom: 25%;
+}
+
+.offer04 {
+    width: 74.9%;
+    left: 13.5%;
+    bottom: 30%;
+}
