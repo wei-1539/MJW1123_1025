@@ -335,7 +335,7 @@ a {
     width: 37.8%;
     left: -2%;
     top: 32%;
-    mix-blend-mode: screen;
+    mix-blend-mode: screen !important;
 }
 
 .thing07-1 {
