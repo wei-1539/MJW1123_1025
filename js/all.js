@@ -74,12 +74,14 @@ const menuBar = document.querySelector(".menuBar");
 const SPshow = document.querySelector(".SPshow");
 menuBar.addEventListener("click", () => {
   menuBar.classList.toggle("menuBar-active");
+  menuBar.classList.toggle("menuBarSP--active");
   SPshow.classList.toggle("SPshow--active");
 });
 const listLink = document.querySelectorAll(".listLink");
 listLink.forEach(item=>{
   item.addEventListener("click",()=>{
     menuBar.classList.toggle("menuBar-active");
+    menuBar.classList.toggle("menuBarSP--active");
     SPshow.classList.toggle("SPshow--active");
   })
 })
