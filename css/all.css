@@ -85,8 +85,12 @@ a {
     background-image: url(../images/BG/bg_07.jpg);
 }
 
-.bg08 {
-    background-image: url(../images/BG/bg_08.jpg);
+.bg08-1 {
+    background-image: url(../images/BG/bg_08-1.jpg);
+}
+
+.bg08-2 {
+    background-image: url(../images/BG/bg_08-2.jpg);
 }
 
 .bg09 {
@@ -310,6 +314,12 @@ a {
     top: 16%;
 }
 
+.thing06-0 {
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+
 .thing06-1 {
     width: 66.1%;
     right: -4.5%;
@@ -337,6 +347,7 @@ a {
     top: 32%;
     mix-blend-mode: screen !important;
 }
+
 
 .thing07-1 {
     width: 46.2%;
@@ -505,6 +516,7 @@ a {
     right: 9%;
     top: 45%;
 }
+
 .closeBtn {
     width: 4.6%;
     right: 9%;
